@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class first_code {
+
+public static void main(String[] args) {
+        
+        Scanner sc=new Scanner(System.in);
+        String A=sc.next();
+        String B=sc.next();
+        int x=A.length()+B.length();
+        System.out.println("Length is :"+x);
+        int z=A.compareTo(B);
+        if(z>1){
+        	System.out.println("no");
+        }
+        else {
+			System.out.println("yes");
+		}
+        String c=A.toUpperCase(A.charAt(0));
+        /* Enter your code here. Print output to STDOUT. */
+        
+    }
+
+}
